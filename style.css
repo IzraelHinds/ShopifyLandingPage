@@ -1,0 +1,271 @@
+* {
+    font-family: 'Roboto', 'serif'
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    text-align: center;
+    padding-top: 2.4em;
+}
+
+#first {
+    background-color: #fff;
+}
+
+#second {
+    background-color:#F0F1F2;
+    min-height: 90vh;
+    min-width: 100vw;
+}
+
+.thanks {
+    text-align: center;
+}
+
+.thanks h1 {
+    font-size: 4.7em;
+    padding-top: 1em;
+}
+
+.thanks p {
+    font-size: 24px;
+    padding-bottom: 1em;
+}
+
+.gift {
+    text-align: center;
+    padding: 1.8em;
+    background: #fff;
+    max-width: 800px;
+    min-height: 200px;
+    margin-left: 20em; 
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.gift h3 {
+    font-size: 2em;
+}
+
+.gift p {
+    font-size: 20px;
+}
+
+.like h1 {
+   text-align: center;
+   font-size: 2em;
+   padding-top: 1em;
+   padding-bottom: 1.5em; 
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#fourth {
+    background-color: #F0F1F2;
+    min-width: 100vw;
+    min-height: 36vh;
+}
+
+.socials {
+    transform: translateY(7em);
+    text-align: center;
+    letter-spacing: 1em;
+    
+}
+
+.socials img:hover {
+    background-color: rgb(199, 194, 194);
+}
+
+
+footer {
+    transform: translateY(9.5em); 
+    text-align: center;
+}
+
+.gift p {
+    padding-bottom: 0.6em;
+}
+
+ .gift button {
+     border: none;
+     text-decoration: none;
+     font-size: 1.2em;
+     background-color: #629942;
+     padding: 14px 24px;
+     color: #fff;
+     border-radius: 5px;
+ }
+
+ .gift button:hover {
+     background-color: #1f440a;
+ }
+
+ #third {
+     min-width: 100vw;
+     min-height: 88vh;
+ }
+
+ @media screen and (max-width: 480px) {
+    header .logo {
+        max-width: 140px;
+        text-align: center;
+    }
+
+    .thanks h1 {
+        font-size: 2.6em;
+        padding-top: 1em;
+    }
+
+    .thanks p {
+        font-size: 16px;
+        
+    }
+
+    
+    .gift h3 {
+        font-size: 1.8em;
+    }
+
+    .gift p {
+        font-size: 1em;
+    }
+
+    .gift {
+        text-align: center;
+        padding: 1.8em;
+        background: #fff;
+        max-width: 600px;
+        min-height: 50px;
+        margin: 0 auto; 
+        position: relative;
+        z-index: 1;
+    }
+
+    .boxes {
+       flex-direction: column;
+       text-align: center;
+    }
+ }
+
+ @media screen and (min-width: 768px) {
+    header .logo {
+        max-width: 140px;
+        text-align: center;
+    }
+
+    .thanks p {
+        font-size: 28px;
+        
+    }
+
+    .gift {
+        text-align: center;
+        padding: 1.8em;
+        background: #fff;
+        max-width: 600px;
+        min-height: 50px;
+        margin: 0 auto; 
+        position: relative;
+        z-index: 1;
+    }
+
+    .boxes {
+        flex-direction: column;
+        text-align: center;
+     }
+
+     #second {
+        background-color:#F0F1F2;
+        min-height: 80vh;
+        min-width: 100vw;
+    }
+ }
+
+ @media screen and (min-width: 1000px) {
+     
+    header .logo {
+        max-width: 140px;
+        text-align: center;
+    }
+
+    #second {
+        background-color:#F0F1F2;
+        min-height: 74vh;
+       
+    }
+
+    .gift {
+        max-width: 1000px;
+        min-height: 200px; 
+    }
+
+    .thanks p {
+        font-size: 30px;
+    }
+
+    .boxes {
+        flex-direction: row;
+     }
+
+     #third {
+        min-width: 100vw;
+        min-height: 88vh;
+    }
+
+    .gift p {
+        font-size: 24px;
+    }
+ }
+
+ @media screen and (min-width: 480px) {
+    header .logo {
+        max-width: 140px;
+        text-align: center;
+    }
+
+    .thanks h1 {
+        font-size: 2.6em;
+        padding-top: 1em;
+    }
+
+    .thanks p {
+        font-size: 16px;
+        
+    }
+
+    
+    .gift h3 {
+        font-size: 1.8em;
+    }
+
+    .gift p {
+        font-size: 1em;
+    }
+
+    .gift {
+        text-align: center;
+        padding: 1.8em;
+        background: #fff;
+        max-width: 600px;
+        min-height: 50px;
+        margin: 0 auto; 
+        position: relative;
+        z-index: 1;
+    }
+
+    .boxes {
+       text-align: center;
+    }
+ }
+ 
